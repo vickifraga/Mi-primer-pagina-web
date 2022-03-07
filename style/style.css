@@ -37,7 +37,7 @@ body {
 }
 .title {
     font-size: var(--lg);
-    margin-bottom: 12 px;
+    margin-bottom: 12px;
     text-align: center;
 }
 .title-second {
