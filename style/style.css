@@ -24,6 +24,11 @@ body {
     width: 300px;
     justify-items: center;
 }
+.form-not-centered-container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    width: 300px;
+}
 .logo {
     width: 150px;
     margin-bottom: 48px;
@@ -35,12 +40,16 @@ body {
     margin-bottom: 12 px;
     text-align: center;
 }
+.title-second {
+    font-size: var(--lg);
+    margin-bottom: 52px;
+    text-align: start;
+}
 .subtitle {
     color: var(--very-light-pink);
     font-size: var(--md);
     font-weight: 300;
-    margin-top: 0;
-    margin-bottom: 32px;
+    margin: 0 0 32px 0;
     text-align: center;
 
 }
@@ -75,6 +84,23 @@ body {
 .input-email {
     margin-bottom: 22px;
 }
+.input-password {
+    margin-bottom: 22px;
+}
+.input-name {
+    margin-bottom: 22px;
+} 
+
+.value  {
+    color: var(--very-light-pink);
+    font-size: var(--md);
+    text-align: start;
+    justify-self: center;
+    font-weight: 100;   
+    margin-top: 0px;
+    margin-bottom: 32px;  
+}
+
 .primary-button {
     background-color: var(--hospital-green);
     border-radius: 12px;
@@ -146,5 +172,12 @@ text-decoration: none;
         margin-bottom: 16px;
         width: 300px;
     }
+    .signin-button {
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 16px;
+        width: 300px;
+    }
+
 }
 
