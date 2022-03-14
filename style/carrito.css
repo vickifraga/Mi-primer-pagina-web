@@ -18,8 +18,16 @@ body {
     display: grid;
     place-items: center;
 }
+.title-container {
+    display: flex;
+
+}
+.title-container img {
+    
+}
 .title {
     font-size: var(--lg);
+    font-weight: bold;
     margin-bottom: 40px;
     margin-top: 40px;
 }
